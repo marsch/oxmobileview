@@ -114,7 +114,8 @@ module.exports = (grunt) ->
           keepBuildDir: true
           almond: true
           insertRequire: ['main.build']
-          optimize: 'uglify2'
+          #optimize: 'uglify2'
+          optimize: 'none'
 
 
     mocha:
