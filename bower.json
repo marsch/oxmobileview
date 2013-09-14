@@ -1,0 +1,45 @@
+{
+  "name": "oxmobileview",
+  "version": "0.0.1",
+  "dependencies": {
+
+    "zepto": "*",
+    "lodash": "*",
+    "requirejs": "2.1.x",
+    "requirehogan": "https://github.com/millermedeiros/requirejs-hogan-plugin.git",
+    "requirecs": "https://github.com/jrburke/require-cs.git",
+    "requirecss": "https://github.com/guybedford/require-css.git",
+    "requireless": "https://github.com/guybedford/require-less.git",
+    "loglevel": "https://github.com/pimterry/loglevel.git"
+  },
+  "exportsOverride": {
+    "zepto": {
+      "js/vendor": "zepto.js"
+    },
+    "requirejs": {
+      "js/vendor": "require.js"
+    },
+    "lodash": {
+      "js/vendor": "dist/lodash.js"
+    },
+    "requirehogan": {
+      "js/vendor": "*.js"
+    },
+    "requirecs": {
+      "js/vendor": "*.js"
+    },
+    "requireless": {
+      "js/vendor": "*"
+    },
+    "requirecss": {
+      "js/vendor": "*"
+    },
+    "loglevel": {
+      "js/vendor": "lib/loglevel.js"
+    },
+    "coffee-script": {
+      "js/vendor": "index.js"
+    }
+  }
+}
+
