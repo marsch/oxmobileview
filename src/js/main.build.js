@@ -1,6 +1,6 @@
 
 require.config({
-    baseUrl: './build/js',
+    baseUrl: '/build/js',
     paths: {
         text: 'vendor/requirehogan/text',
         hgn: 'vendor/requirehogan/hgn',
