@@ -15,11 +15,10 @@ require.config({
         normalize: 'vendor/requirecss/normalize',
         'coffee-script': 'vendor/requirecs/coffee-script',
         hogan: 'vendor/requirehogan/hogan',
-        loglevel: 'vendor/loglevel/loglevel',
-
-
-    }
+        loglevel: 'vendor/loglevel/loglevel'
+    },
     shim: {
+
     }
 });
 
