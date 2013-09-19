@@ -79,7 +79,7 @@ module.exports = (grunt) ->
             dest: OUT_DIR + '/css'
             expand: true
             src: [
-              '**/*.css'
+              '**/*.{css,woff}'
             ]
           }
           {
