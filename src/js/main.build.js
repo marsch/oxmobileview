@@ -24,11 +24,23 @@ require.config({
 });
 
 require([
+    'cs!app',
+    'cs!config',
     'loglevel'
-    ], function (log) {
+    ], function (Application, config, log) {
   'use strict';
 
+  try {
+    // use 'silent' to supress log messages
+    // never use console.log directly PLZ
+    log.setLevel(config.dev.loglevel);
+  } catch (e) {
+    // no console.log available
+  }
+
   log.debug('app started');
+  var app = new Application();
+  app.initialize();
 
 });
 
