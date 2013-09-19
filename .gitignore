@@ -3,9 +3,9 @@
 /node_modules
 
 # Temporary directory where files are built.
-/src/js/vendor
-/src/css/vendor
-/src/images/vendor
+#/src/js/vendor
+#/src/css/vendor
+#/src/images/vendor
 
 /bower_components
 /components
