@@ -18,7 +18,7 @@ require.config({
         loglevel: 'vendor/loglevel/loglevel',
 
 
-    },
+    }
     shim: {
     }
 });
