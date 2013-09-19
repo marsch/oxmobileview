@@ -24,9 +24,9 @@ require.config({
 });
 
 require([
-    'less!../css/main',
-    'loglevel'
-    ], function (Application, log) {
+    'loglevel',
+    'less!../css/main'
+    ], function (log) {
   'use strict';
 
   log.debug('app started');

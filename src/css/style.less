@@ -411,7 +411,7 @@
         padding: 0 12px;
 
         &:focus {
-            i { color: white;Â }
+            i { color: white;}
             background-color: @linkColor;
             outline-style: none;
         }
@@ -453,7 +453,7 @@
 
     position: absolute;
     z-index: 30;
-    top: 40px;
+    top: 0px;
     bottom: 0px;
 
     background-color: #222;
@@ -476,9 +476,8 @@
 
     @media (min-width: 481px) {
         width: 350px;
-        right: -350px;
         .box-shadow(0 10px 20px 1px black);
-         &.active { right: 0; }
+         &.active {  }
     }
 
     &.active {
