@@ -9,9 +9,9 @@ html,body{height:100%;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;fo
 .scrollable-pane{position:relative;width:100%;min-height:100%}
 .scrollable-pane:after{content:"\00A0";}
 .btn-medium{padding:8px 19px;font-size:15.5px}
-#io-ox-notifications{display:none;position:absolute;z-index:30;top:0px;bottom:0px;background-color:#222;border-top:1px solid #000;overflow-x:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}#io-ox-notifications:focus{outline:0}
-@media (max-width:480px),(max-device-width:480px) and (orientation:portrait){#io-ox-notifications{width:100%}#io-ox-notifications.active{display:block}}@media (min-width:481px){#io-ox-notifications{width:350px;-webkit-box-shadow:0 10px 20px 1px #000;-moz-box-shadow:0 10px 20px 1px #000;-ms-box-shadow:0 10px 20px 1px #000;box-shadow:0 10px 20px 1px #000}}#io-ox-notifications.active{display:block}
-#io-ox-notifications #io-ox-notifications-display{padding:0 13px 0 13px}#io-ox-notifications #io-ox-notifications-display .section-title{color:#eee;border:none;font-family:OpenSans,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:18px;margin:0 0 0 13px;line-height:46px}
+#io-ox-notifications{display:none;position:absolute;z-index:30;top:0px;left:0px;bottom:0px;background-color:#222;border-top:1px solid #000;overflow-x:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}#io-ox-notifications:focus{outline:0}
+@media (max-width:480px),(max-device-width:480px) and (orientation:portrait){#io-ox-notifications{width:100%}#io-ox-notifications.active{display:block}}@media (min-width:481px){#io-ox-notifications{width:350px}}#io-ox-notifications.active{display:block}
+#io-ox-notifications #io-ox-notifications-display{padding:0}#io-ox-notifications #io-ox-notifications-display .section-title{color:#eee;border:none;font-family:OpenSans,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:18px;margin:0 0 0 13px;line-height:46px}
 #io-ox-notifications #io-ox-notifications-display .notifications{margin-bottom:13px}
 #io-ox-notifications #io-ox-notifications-display .item{color:#fff;background-color:#333;padding:13px;margin-bottom:1px;cursor:pointer}#io-ox-notifications #io-ox-notifications-display .item:focus{outline:1px solid rgba(255,255,255,0.3);background-color:#444}
 #io-ox-notifications #io-ox-notifications-display .item:hover{background-color:#444}
